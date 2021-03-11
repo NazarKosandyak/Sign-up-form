@@ -1,0 +1,267 @@
+.box {
+    height: 550px;
+    width: 500px;
+    border: 1px solid green;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+}
+
+h1 {
+    width: 100%;
+    line-height: 70px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(1, 189, 126);
+    font-family: monospace;
+    text-align: center;
+    color: #fff;
+}
+
+/* Вміст форми */
+.form_con {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.form_con p:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.form_con input.name {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form_con input.name:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgb(8, 139, 247);
+}
+
+
+/* Surname */
+
+.form_con p:nth-child(3) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.form_con input.surname {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form_con input.surname:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgb(8, 139, 247);
+}
+
+/* Email */
+.form_con p:nth-child(5) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.form_con input.email {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form_con input.email:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgb(8, 139, 247);
+}
+
+/* RADIO */
+.form_con input[type="radio"] {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* Select */
+
+.form_con p:nth-child(9) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.pos {
+    width: 100%;
+    padding: 5px;
+}
+
+.form_con.pos:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgb(8, 139, 247);
+}
+
+
+/*Checkbox  */
+.form_con input[type="checkbox"] {
+    margin-top: 20px;
+}
+
+.form_con span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subm {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: .2s;
+    color: #fff;
+}
+
+.subm1:hover {
+    transition: .2s;
+    color: #fff;
+    background-color: rgb(253, 23, 81);
+}
+
+
+/* IN */
+
+.in {
+    position: relative;
+    border-radius: 15px;
+    width: 450px;
+    height: 450px;
+    border: 1px solid green;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.head {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(1, 189, 126);
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url("");
+}
+
+.in p:nth-child(3) {
+    margin-top: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.in p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* PREVPAGE */
+
+.prevStyle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid green;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    line-height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+
+.prevStyle:hover {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(1, 189, 126);
+    border: 1px solid rgb(1, 189, 126);
+    outline: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    width: 100px;
+    color: #fff;
+    transition: .3s;
+}
+
+
+/* LINKS */
+
+.links {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(1, 189, 126);
+    height: 60px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+
+}
+
+li {
+
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+img {
+    height: 32px;
+}

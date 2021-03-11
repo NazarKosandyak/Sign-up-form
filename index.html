@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="box">
+        <form name="signUp">
+
+            <h1>Create your account</h1>
+            <div class="form_con">
+                <p>First Name</p>
+                <input placeholder="type here.." class="name" type="text" name="name" required>
+
+                <p>Second Name</p>
+                <input placeholder="type here.." class="surname" type="text" name="surname" required>
+
+                <p>Email address</p>
+                <input placeholder="enter email" class="email" type="email" name="email">
+
+                <input type="radio" name="gender" value="man">man
+                <input type="radio" name="gender" value="woman">woman
+
+                <p>Position</p>
+                <select class="pos" name="positions">
+                    <option value="Choose">Choose..</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="QC/QA">QC/QA</option>
+                </select>
+
+                <input type="checkbox" name="agree" value="agree"><span>I agree all statments in Terms of
+                    Service</span>
+
+                <input name="lol" class="subm" type="button" value="Sign Up" disabled>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="in">
+        <div class="head"></div>
+        <div class="img"></div>
+        <p class="name_in"></p>
+        <p class="email_in"></p>
+        <p class="position_in"></p>
+        <hr>
+
+        <input type="button" name="prevPage" class="prevStyle" value="Sign Out">
+
+        <div class="links">
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100012770681121"><img
+                            src="img/facebook (1).png" alt=""></a></li>
+                <li><a target="_blank" href="https://github.com/NazarKosandyak"><img src="img/github.png" alt=""></a>
+                </li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/nazar-k-786467165/"><img src="img/linkedin.png"
+                            alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
